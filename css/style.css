@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Marcellus);
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:700italic);
+
+body {
+	margin-top: 50px;
+}
+
+.logo {
+	font-family: 'Optima', 'Marcellus';
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+h1.logo {
+	font-size: 50px;
+	margin-bottom: 1em;
+	letter-spacing: 5px;
+}
+
+.logo > span {
+	font-size: 0.7em;
+}
+
+.show {
+	background-color: #000;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+	-moz-box-shadow:    0px 5px 8px 3px #ccc;
+	-webkit-box-shadow: 0px 5px 8px 3px #ccc;
+	box-shadow: 		0px 5px 8px 3px #ccc;
+
+}
+
+
+img.scaled {
+	max-width: 95%;
+	max-height: 95%;
+}
+
+h1.quote {
+	font-family: 'Noto Serif', Serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	background-color: #9c9c9c;
+  	color: transparent;
+  	text-shadow: 0px 2px 4px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+	color: transparent;
+	max-width: 70%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1.quote > span.autor{
+	display: block;
+	font-size: 30px;
+	font-style: normal;
+	text-align: right;
+}
+
+.inner{
+	/*display: table;*/
+	vertical-align: middle;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #5c5c5c;
+	font-size: 20px;
+
+}
+
+.inner > h1{
+	font-size: 50px;
+	margin-bottom: 1em;
+	
+}
+
+.pic {
+	background: white;
+	margin: 15px 15px 15px 15px;
+	padding: 10px 10px 10px 10px;
+	-moz-box-shadow:    0px 0px 8px 3px #ccc;
+	-webkit-box-shadow: 0px 0px 8px 3px #ccc;
+	box-shadow: 		0px 0px 8px 3px #ccc;
+	max-width: 90%;
+	max-height: 90%;
+	-webkit-transform: rotate(4deg);  
+	-moz-transform: rotate(4deg); 
+	transform: rotate(4deg); 
+
+} 
+
+.ico {
+	color: white;
+	text-align: center;
+}
+
+/*.navbar {
+	z-index: 5;
+	background-color: transparent;
+}
+
+.blur {
+	position: fixed;
+	left: 0;
+	top: 0;
+	-webkit-filter: blur(13px);
+    -moz-filter: blur(13px);
+    -o-filter: blur(13px);
+    -ms-filter: blur(13px);
+    filter: blur(13px);
+    background-color: white;
+    height: 50px;
+    width: 100%
+    z-index: 4;
+  
+}*/
