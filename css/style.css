@@ -251,7 +251,7 @@ a.dark :hover {
 
 
 .bg-bodas {
-	background: url(../../img/galeria-bodas/bodas-header.jpg) no-repeat center center;
+	background: url(../img/galeria-bodas/bodas-header.jpg) no-repeat center center;
 	position: fixed;
 	margin-top: 50px;
 	height: 500px;
