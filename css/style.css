@@ -73,6 +73,20 @@ h1.quote {
 	margin-left: auto;
 }
 
+h1.quote-white {
+	font-family: 'Noto Serif', Serif;
+	font-style: italic;
+	font-weight: bold;
+	height: 100%;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	/*background-color: rgba(255,255,255,0.5);*/
+	text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	margin-top: 4em;
+	margin-bottom: auto;
+}
+
 h1.quote > span.autor{
 	display: block;
 	font-size: 30px;
@@ -89,7 +103,7 @@ h1.quote > span.autor{
 .content {
 	
 	vertical-align: middle;
-	padding-top: 5%;
+	padding-top: 2%;
 	padding-bottom: 5%;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -120,6 +134,15 @@ h1{
 	
 
 } 
+
+@media (max-width: 768px){
+	.pic {
+		margin: 1em 1em 1em 1em;
+		padding: 5px 5px 5px 5px;
+	}
+}
+
+
 
 .rigth {
 	-webkit-transform: rotate(4deg);  
@@ -203,9 +226,7 @@ a.dark :hover {
   background-size: cover;
 }
 
-.bodas {
-	background-color: #f2f2f2;
-}
+
 
 #gallery {
 	height: 150px;
@@ -214,9 +235,9 @@ a.dark :hover {
 }
 
 #gallery div {
-	width: 150px;
+	width: 500px;
 	height: 150px;
-	display: inline-block;
+	display: inline;
 	margin-bottom: 20px;
 
 }
@@ -225,6 +246,52 @@ a.dark :hover {
 	content: '';
 	width: 100%;
 	display: inline-block;
+}
+
+
+
+.bg-bodas {
+	background: url(../../img/galeria-bodas/bodas-header.jpg) no-repeat center center;
+	position: fixed;
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	max-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	
+
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	height: 500px;
+	
+	background: transparent;
+	
+}
+
+@media (max-width: 768px) {
+	
+	.bg-bodas {
+		height: 250px;
+	}
+
+	.jumbotron {
+		height: 250px;
+	}
+
+	h1.quote-white {
+		font-size: 30px;
+		margin-top: 4rem;
+
+	}
+	
 }
 
 @media (min-width: 768px) { 
@@ -245,6 +312,28 @@ a.dark :hover {
 	}
 
 }
+
+
+
+.gold {
+	background-color: #e7e2b3;
+	-moz-box-shadow:    0px 0px 5px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+	box-shadow: 		0px 0px 5px 1px rgba(0,0,0,0.5);
+	
+}
+
+.gold-head{
+	color: #968D3A;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+
+}
+
+.gold-content{
+	color: #968D3A;
+}
+
 
 
 

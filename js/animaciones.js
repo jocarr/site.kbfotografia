@@ -1,11 +1,20 @@
 $(document).ready(function(){
 
+/*
+------------------ scroll -------------------
+=============================================
+*/
 	$('.scroll').click(function() {
 
 		var clickedURL = $(this).attr('href');
 
 		$(clickedURL).velocity("scroll", {duration: 1000, easing: "InOutCubic", offset: -50});
 	});
+
+/*
+---------- cambia color en Hover ------------
+=============================================
+*/
 
 	$('.fa').hover(function() {
 
@@ -18,7 +27,7 @@ $(document).ready(function(){
 				break;
 
 			case '#twitter':
-				$(sn).velocity({color: '#4099FF'}, {duration: 200});
+				$(sn).velocity({color: '#4099FF'}, {duratio26632039n: 200});
 				break;
 
 			case '#instagram':
@@ -34,7 +43,29 @@ $(document).ready(function(){
 	$('.fa').mouseout(function() {
 		$(this).velocity({color: '#9c9c9c'}, {duration: 400});
 	});
-  });
+
+/*
+------ Efecto Parallax en jumbotron ---------
+=============================================
+*/
+
+
+	var jumboheight = $('.jumbotron').outerHeight();
+	
+	function paralax(){
+		
+		var scrolled = $(window).scrollTop();
+		$('.bg-bodas').css('height', (jumboheight-scrolled) + 'px');
+		//$('.bg-bodas').velocity({height: jumboheight-scrolled});
+	}
+	
+	$(window).scroll(function(e){
+		
+		paralax();
+
+	});
+	
+  });//fin
 
 
 
