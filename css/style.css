@@ -112,6 +112,10 @@ h1.quote > span.autor{
 
 }
 
+p > .scroll {
+	font-size: 70%;
+}
+
 .center-x{ text-align:center;}
 .center-y{vertical-align:middle;}
 
@@ -229,14 +233,14 @@ a.dark :hover {
 
 
 #gallery {
-	height: 150px;
+	height: 100%;
 	text-align: justify;
 
 }
 
 #gallery div {
 	width: 500px;
-	height: 150px;
+	height: 100%;
 	display: inline;
 	margin-bottom: 20px;
 
@@ -332,6 +336,10 @@ a.dark :hover {
 
 .gold-content{
 	color: #968D3A;
+}
+
+#gallery {
+	display: block;
 }
 
 

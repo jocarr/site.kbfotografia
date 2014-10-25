@@ -27,8 +27,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
-    background: url(../img/slide2.jpg) no-repeat center center fixed;
+  /*background-color: #333;*/
+    /*background: url(../img/slide2.jpg) no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -236,4 +236,8 @@ h1.cover-heading > a:hover {
     width: 80%;
 
   }
+}
+
+#frame-logo {
+  background-color: rgba(0,0,0,1);
 }

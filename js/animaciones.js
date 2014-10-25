@@ -44,6 +44,14 @@ $(document).ready(function(){
 		$(this).velocity({color: '#9c9c9c'}, {duration: 400});
 	});
 
+	$('.cover-heading').hover(function() {
+		$('#frame-logo').velocity({backgroundColor : '#000', backgroundColorAlpha: 0.5}, {duration: 500});
+	});
+
+	$('.cover-heading').mouseout(function() {
+		$('#frame-logo').velocity({backgroundColorAlpha: 0}, {duration: 400});
+	});
+
 /*
 ------ Efecto Parallax en jumbotron ---------
 =============================================

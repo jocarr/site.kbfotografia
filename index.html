@@ -42,13 +42,15 @@
                   
                   <li><a href="home.html">Sobre mi</a></li>
                   <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contacto</a></li>
-                  <li><a href="#">Mi trabajo</a>
+                  <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="home.html">Mi trabajo</a>
                     <ul>
-                      <li><a href="#">Modelos</a></li>
-                      <li><a href="#">Bodas</a></li>
-                      <li><a href="#">Familia</a></li>
-                      <li><a href="#">Niños</a></li>  
+                      <li><a href="home.html#bodas">Bodas</a></li>
+                      <li><a href="home.html#familiar">Familiares</a></li>
+                      <li><a href="home.html#publicitaria">Publicitaria</a></li>
+                      <li><a href="home.html#modelaje">Modelaje</a></li>
+                      <li><a href="home.html#arte">Artística</a></li>
+                      <li><a href="home.html#budoir">Budoir</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -88,6 +90,19 @@
     <script src="js/docs.min.js"></script>
     <script src="js/velocity.min.js"></script>
     <script src="js/animaciones.js"></script>
+    <script src="js/jquery.backstretch.js"></script>
+
+    <script>
+    $.backstretch([
+      "img/slide1.jpg",
+      "img/slide2.jpg",
+      "img/slide3.jpg"
+      ], {
+        fade: 750,
+        duration: 4000
+    });
+    </script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
