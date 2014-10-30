@@ -104,7 +104,7 @@ h1.quote > span.autor{
 	
 	vertical-align: middle;
 	padding-top: 2%;
-	padding-bottom: 5%;
+	padding-bottom: 25px;
 	padding-left: 50px;
 	padding-right: 50px;
 	color: #5c5c5c;
@@ -144,6 +144,16 @@ h1{
 		margin: 1em 1em 1em 1em;
 		padding: 5px 5px 5px 5px;
 	}
+
+	.footer-list > li {
+
+		padding-right: 25px;
+		padding-left: 0;
+	}
+
+	.footer-logo {
+	display: block;
+}
 }
 
 
@@ -342,6 +352,35 @@ a.dark :hover {
 	display: block;
 }
 
+.footer-bar {
+	max-height: 500px;
+	/*height: 100px;*/
+	width: 100%;
+	padding-top: 25px;
+	background-color: #4c4c4c;
+}
+
+.footer-content {
+
+}
+
+.footer-list {
+	display: inline;
+
+}
+
+.footer-list > li {
+	display: inline;
+	padding-right: 25px;
+}
+
+.footer-logo {
+	display: inline;
+}
+
+.service-bar {
+	margin-bottom: 0;
+}
 
 
 
