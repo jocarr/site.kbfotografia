@@ -73,6 +73,17 @@ $(document).ready(function(){
 		
 		var scrolled = $(window).scrollTop();
 		$('.bg-bodas').css('height', (jumboheight-scrolled) + 'px');
+
+		$('.bg-familias').css('height', (jumboheight-scrolled) + 'px');
+
+		$('.bg-modelos').css('height', (jumboheight-scrolled) + 'px');
+
+		$('.bg-publicitaria').css('height', (jumboheight-scrolled) + 'px');
+
+		$('.bg-artistica').css('height', (jumboheight-scrolled) + 'px');
+
+		$('.bg-budoir').css('height', (jumboheight-scrolled) + 'px');
+
 		//$('.bg-bodas').velocity({height: jumboheight-scrolled});
 	}
 	

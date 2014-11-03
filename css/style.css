@@ -103,8 +103,8 @@ h1.quote > span.autor{
 .content {
 	
 	vertical-align: middle;
-	padding-top: 2%;
-	padding-bottom: 25px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	padding-left: 50px;
 	padding-right: 50px;
 	color: #5c5c5c;
@@ -141,8 +141,11 @@ h1{
 
 @media (max-width: 768px){
 	.pic {
-		margin: 1em 1em 1em 1em;
-		padding: 5px 5px 5px 5px;
+		margin: 15px 1px 1px 1px;
+		padding: 2px 2px 2px 2px;
+		max-height: 100px;
+		max-width: 100px;
+
 	}
 
 	.footer-list > li {
@@ -242,6 +245,52 @@ a.dark :hover {
 
 
 
+
+
+@media (min-width: 768px) { 
+	.ico { 
+		text-align: center;
+		}
+	#facebook {
+		color: '#3B5998'
+	}
+	#twitter {
+		color: '#4099FF'
+	}
+	#instagram {
+		color: '#675144'
+	}
+	#pinterest {
+		color: '#CB2027'
+	}
+
+}
+
+/*=================== Galerias ==========================*/
+
+/*------ General ------*/
+
+#gallery {
+	display: block;
+}
+
+.desc {
+	-moz-box-shadow:    0px 0px 2px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+	box-shadow: 		0px 0px 2px 1px rgba(0,0,0,0.5);
+}
+
+.desc h1 {
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+
+.desc p {
+	font-size: 20px;
+	text-align: justify;
+	padding-bottom: 25px;
+}
+
 #gallery {
 	height: 100%;
 	text-align: justify;
@@ -278,8 +327,86 @@ a.dark :hover {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	
+}
 
+.bg-familias {
+	background: url(../img/galeria-bodas/familias-header.jpg) no-repeat center center;
+	position: fixed;
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	max-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.bg-modelos {
+	background: url(../img/galeria-modelos/modelos-header.jpg) no-repeat center center;
+	position: fixed;
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	max-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.bg-publicitaria {
+	background: url(../img/galeria-publicitaria/publicitaria-header.jpg) no-repeat center center;
+	position: fixed;
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	max-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.bg-artistica {
+	background: url(../img/galeria-artistica/artistica-header.jpg) no-repeat center center;
+	position: fixed;
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	max-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.bg-budoir {
+	background: url(../img/galeria-budoir/budoir-header.jpg) no-repeat center center;
+	position: fixed;
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	max-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
 .jumbotron {
@@ -308,49 +435,75 @@ a.dark :hover {
 	
 }
 
-@media (min-width: 768px) { 
-	.ico { 
-		text-align: center;
-		}
-	#facebook {
-		color: '#3B5998'
-	}
-	#twitter {
-		color: '#4099FF'
-	}
-	#instagram {
-		color: '#675144'
-	}
-	#pinterest {
-		color: '#CB2027'
-	}
+/*------ Bodas ------*/
 
-}
-
-
-
-.gold {
+.color-bodas {
 	background-color: #e7e2b3;
-	-moz-box-shadow:    0px 0px 5px 1px rgba(0,0,0,0.5);
-	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
-	box-shadow: 		0px 0px 5px 1px rgba(0,0,0,0.5);
 	
 }
-
-.gold-head{
-	color: #968D3A;
-	margin-top: 5rem;
-	margin-bottom: 3rem;
-
-}
-
-.gold-content{
+.color-bodas .container{
 	color: #968D3A;
 }
+ 
+/*------ Familia------*/
 
-#gallery {
-	display: block;
+.color-familia {
+	background-color: #ac2c57;
+	
 }
+.color-familia .container{
+	color: #fff;
+}
+
+/*------ Publicitaria ------*/
+
+.color-publicitaria {
+	background-color: #CFFD73;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	
+}
+.color-publicitaria .container{
+	color: #6DA301;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+h1.recuadro {
+	background-color: rgba(0,0,0,0, 0,4);
+}
+/*------ Modelos ------*/
+
+.color-modelos {
+	background-color: #675AF1;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+
+	
+}
+.color-modelos .container{
+	color: #b7b1ef;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+
+}
+/*------ Artistica ------*/
+
+.color-artistica {
+	background-color: #32C8C2;
+	
+}
+.color-artistica .container{
+	color: #005E5B;
+}
+/*------ Budoir ------*/
+
+.color-budoir {
+	background-color: #9B0B00;
+	
+}
+.color-budoir .container{
+	color: #000;
+}
+
+
+/*=================== /Galerias ==========================*/
 
 .footer-bar {
 	max-height: 500px;

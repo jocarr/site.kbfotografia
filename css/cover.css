@@ -180,7 +180,7 @@ i{
 @import url(http://fonts.googleapis.com/css?family=Marcellus);
 .cover-heading, .lead {
   font-family: 'Optima', 'Marcellus';
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 0px;
   font-size: 30px;
@@ -236,12 +236,13 @@ h1.cover-heading > a:hover {
   }
 
   .cover-heading, .lead{
-    font-size: 80px;
-    letter-spacing: 12px;
+    font-size: 60px;
+    letter-spacing: 10px;
   }
 
   .lead {
-    font-size: 40px;
+    font-size: 30px;
+    letter-spacing: -1px;
   }
 }
 
@@ -259,6 +260,15 @@ h1.cover-heading > a:hover {
   .cover-container {
     width: 80%;
 
+  }
+
+    .cover-heading, .lead{
+    font-size: 80px;
+    letter-spacing: 12px;
+  }
+
+  .lead {
+    font-size: 40px;
   }
 }
 
